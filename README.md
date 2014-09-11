@@ -11,7 +11,7 @@ More information is available at [http://developer.magnet.com](http://developer.
 
 The SDK is licensed under the terms of the [Magnet Software License Agreement](http://www.magnet.com/resources/tos.html).  Please see [LICENSE](https://github.com/magnetsystems/magnet-sdk-javascript/blob/master/LICENSE) file for full details.
 
-### Import the SDK into your own PhoneGap or Web app
+### Import the SDK into your own PhoneGap or web app
 
 Download and place magnet-sdk.js into a directory within your project. In your HTML file, add a script tag reference to the file.
 
@@ -62,7 +62,7 @@ node app.js web
 // open web browser and navigate to http://localhost:3010
 ```
 
-## Grunt Commands
+## Grunt commands
 
 After installation of [grunt](http://gruntjs.com), the following commands can be used to build API documentation and run the jasmine-node unit tests.
 
@@ -76,7 +76,7 @@ grunt nodetests
 
 ## Notes/Caveats
 
-#### Self-Signed Certificates Over SSL On Android
+#### Self-signed certificates over SSL on Android
 
 Current versions of the Cordova framework on Android clients cannot execute AJAX requests to an SSL-enabled server which uses a self-signed certificate. There are two workarounds:
 
@@ -84,7 +84,7 @@ Current versions of the Cordova framework on Android clients cannot execute AJAX
 * Disable SSL while developing your app, then switch to a valid SSL certificate in production.
 
 
-#### Self-Signed Certificates Over SSL On iOS
+#### Self-signed certificates over SSL on iOS
 
 Current versions of the Cordova framework on iOS clients cannot execute AJAX requests to an SSL-enabled server which uses a self-signed certificate. To circumvent this issue during development, following the steps listed below.
 
@@ -111,7 +111,7 @@ ios/<project name>/Classes/AppDelegate.m
 
 ### Web
 
-#### Lack Of Support For Cross-Domain AJAX Requests
+#### Lack Of support for cross-domain AJAX requests
 
 Browser-based web applications suffer from the "same-origin policy", a security concept which prevents AJAX requests across domain boundaries. As a result, the web application must reside on the same host and port as the target server in order to make requests. A workaround is to use CORS (Cross Origin Resource Sharing), a client and server implementation which circumvents this limitation through the use of HTTP headers and a pre-flight request.
 
