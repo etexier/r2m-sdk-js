@@ -111,7 +111,7 @@ ios/<project name>/Classes/AppDelegate.m
 
 ### Web
 
-#### Lack Of support for cross-domain AJAX requests
+#### Lack of support for cross-domain AJAX requests
 
 Browser-based web applications suffer from the "same-origin policy", a security concept which prevents AJAX requests across domain boundaries. As a result, the web application must reside on the same host and port as the target server in order to make requests. A workaround is to use CORS (Cross Origin Resource Sharing), a client and server implementation which circumvents this limitation through the use of HTTP headers and a pre-flight request.
 
