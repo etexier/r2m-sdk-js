@@ -37,7 +37,7 @@ var MagnetJS = require('./lib/magnet-sdk');
 
 ## Samples
 
-Samples for making calls using the generated r2m API libraries are available in the "samples" folder.
+Samples for making calls using the generated rest2mobile API libraries are available in the "samples" folder.
 
 nodejs sample (requires [node.js](http://nodejs.org))
 
@@ -64,7 +64,7 @@ node app.js web
 
 ## Grunt commands
 
-After installation of [grunt](http://gruntjs.com), the following commands can be used to build API documentation and run the jasmine-node unit tests.
+After installation of [grunt](http://gruntjs.com), use these commands to build API documentation and run the jasmine-node unit tests.
 
 ```
 grunt docs
