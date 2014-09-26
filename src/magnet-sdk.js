@@ -1,7 +1,7 @@
     /*!*
-     * @fileoverview Magnet Mobile Server SDK for JavaScript
+     * @fileoverview rest2mobile SDK for JavaScript
      *
-     * @version 2.3.1-SNAPSHOT
+     * @version 1.0
      */
 
     (function(MagnetJS){
@@ -39,7 +39,7 @@ MagnetJS.Config = {
     /**
      * @property {string} sdkVersion Version of the Magnet Mobile SDK for JavaScript.
      */
-    sdkVersion             : '2.3.1-SNAPSHOT'
+    sdkVersion             : '1.0'
 };
 
 /**
